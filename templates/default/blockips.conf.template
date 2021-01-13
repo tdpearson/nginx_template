@@ -1,0 +1,5 @@
+deny 164.132.0.0/16; # block Ahrefsbot
+deny 217.182.0.0/16; # block Ahrefsbot
+deny 51.254.0.0/16; # block Ahrefsbot 
+deny 51.255.0.0/16; # block Ahrefsbot 
+deny 180.76.0.0/16; # block Baiduspider

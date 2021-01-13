@@ -1,0 +1,11 @@
+server {
+    listen 80 default_server;
+    include conf.d/blockips.conf;
+    server_name ${HOSTNAME};
+    location / {
+        root /data/static_web;
+        autoindex on;
+        add_header  Cache-Control private;
+
+    }
+}
